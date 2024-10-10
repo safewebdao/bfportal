@@ -151,7 +151,13 @@ export default function Ecosystem() {
   );
 }
 
-function GameCard({ title, description, players }) {
+interface GameCardProps {
+  title: string;
+  description: string;
+  players: string;
+}
+
+function GameCard({ title, description, players }: GameCardProps) {
   return (
     <Card>
       <CardHeader>
