@@ -17,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+       <head>
+        <script defer data-domain="getgrass.space" src="https://app.pageview.app/js/script.js"></script>
+      </head>
       <body>
         <ThemeProvider
           attribute="class"
