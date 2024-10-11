@@ -24,7 +24,7 @@ export default function Home() {
               <Link href="/ecosystem">Ecosystem</Link>
             </Button>
             <Button variant="default" asChild>
-              <Link href="#get-started">Get Started</Link>
+              <Link href="https://game.getgrass.space/">Get Started</Link>
             </Button>
           </div>
         </nav>
